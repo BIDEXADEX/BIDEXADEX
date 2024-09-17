@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+h1 {
+  color: rgb(23, 116, 237);
+  text-align: center;
+}
+body {
+    display: block;
+    background-color: rgb(242, 244, 247);
+    background-size: auto;
+    line-height: 16.08px ;
+    padding-top: 50px;  
+}
+.form-element {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: rgb(150, 153, 158);
+}
+div {
+    text-align: center;
+    margin-bottom: 10px;
+}
+section {
+    background-color: rgb(255, 255, 255);
+    width: 396px;
+    margin: 35px auto;
+    border-radius: 8px;
+    padding: 35px;
+    padding-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    padding-right: 15px;
+    padding-left: 15px;
+    
+
+}
+button {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 116, 237);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight:bold ;
+    padding: 15px;
+    border: 1px solid;
+}
+footer {
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    color:rgb(150, 153, 158); 
+}
+div p {
+    display: flex;
+    flex-direction: row;
+    color: rgb(150, 153, 158);
+}
+div p:before, div p:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+    color: rgb(150, 153, 158);
+}
+div p:before {
+    margin-right: 5px;
+}
+div p::after {
+    margin-left: 5px;
+}
+a button {
+    width: 50%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(58, 178, 35); 
+}
+a {
+    color: rgb(24, 119, 242);
+    line-height: 18.76px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration-style: solid;
+}
+a :hover {
+    background-color: green;
+}
